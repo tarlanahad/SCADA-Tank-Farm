@@ -14,9 +14,9 @@ def send_welcome(message):
     bot.reply_to(message, 'Hesabınız yaradıldı. Zəhmət olmasa, istədiyiniz şəxsin fb linkini qeyd qedin.')
 
 
-@bot.message_handler(func=lambda msg: msg.text is not None and '@' in msg.text)
+@bot.message_handler(func=lambda msg: msg.text is not None and 'facebook' in msg.text)
 def at_answer(message):
-    pass
+    bot.reply_to(message, str(message.from_user.id))
 
 
 @server.route('/' + TOKEN, methods=['POST'])
