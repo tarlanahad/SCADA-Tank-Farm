@@ -16,8 +16,7 @@ def send_welcome(message):
 
 @bot.message_handler(func=lambda msg: msg.text is not None and '@' in msg.text)
 def at_answer(message):
-    texts = message.text.split(' ')
-    bot.reply_to('salam')
+    pass
 
 
 @server.route('/' + TOKEN, methods=['POST'])
