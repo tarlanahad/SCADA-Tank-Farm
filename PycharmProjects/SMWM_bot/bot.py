@@ -11,12 +11,13 @@ server = Flask(__name__)
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
     print(message.chat.id)
-    bot.reply_to(message, 'Hesabınız yaradıldı. Zəhmət olmasa, istədiyiniz şəxsin fb linkini qeyd qedin.')
+    bot.reply_to(message, 'meow')
 
 
-@bot.message_handler(func=lambda msg: msg.text is not None and 'facebook' in msg.text)
-def at_answer(message):
-    bot.reply_to(message, str(message.from_user.id))
+@bot.message_handler(commands=['Salam', 'salam'])
+def send_salam(message):
+    print(message.chat.id)
+    bot.reply_to(message, 'Salam, bəbiş hanımım')
 
 
 @server.route('/' + TOKEN, methods=['POST'])
