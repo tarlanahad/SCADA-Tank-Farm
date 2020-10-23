@@ -10,13 +10,11 @@ server = Flask(__name__)
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
-    print(message.chat.id)
     bot.reply_to(message, 'meow')
 
 
 @bot.message_handler(commands=['Salam', 'salam'])
 def send_salam(message):
-    print(message.chat.id)
     bot.reply_to(message, 'Salam, bəbiş hanımım')
 
 
