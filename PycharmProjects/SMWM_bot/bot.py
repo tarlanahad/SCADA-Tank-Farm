@@ -41,14 +41,16 @@ def webhook():
     d = d[1:]
 
     for row in d:
+        s += '<br>'
         s += row[0]
         s += '</br>'
 
         for j in [2, 3, 5, 6, 7, 8]:
+            s += '<br>'
             s += (head[j][:3] + ": " + row[j])
             s += '</br>'
 
-        s += '------</br>'
+        s += '<br>------</br>'
 
     return s, 200
 
