@@ -42,12 +42,13 @@ def webhook():
 
     for row in d:
         s += row[0]
-        s += '\n'
+        s += '</br>'
 
         for j in [2, 3, 5, 6, 7, 8]:
             s += (head[j][:3] + ": " + row[j])
-            s += '\n'
-        s += '------\n'
+            s += '</br>'
+
+        s += '------</br>'
 
     return s, 200
 
