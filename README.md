@@ -10,7 +10,7 @@ This text aims to provide information about Standard Operational Procedures that
 
 The tank farm has three slaves and one master tank where the master tank's fullness is prioritized. Automatic alarm systems triggering by the predefined alarm threshold in both slave and master tanks send information to the corresponding (Pump110A for slaves, Pump770 for master) pumps and valves to start the filling process. Moreover, to provide flexibility over the process, an authorized operator can also control the process manually. Having filled master tank is waiting for the discharge of product until order is received.
 
-![Figure 1](https://i.imgur.com/5GQsLwu.png "Title")
+![Figure 1](https://i.imgur.com/5GQsLwu.png)
 
 ## Design Parameters
 
@@ -24,10 +24,30 @@ Several parameters have been taken into account during the designing process of 
 
 As pumps can be fragile to certain high-pressure levels (~1000 PSI), discharge selenoid valves (SV1x02) have been added to the tanks to provide maximum safety. 
 
-## Software Overview
-Concerning the safety measures, the software includes its so called Main Page to allow only authorized users to interfere with the process's control. Users can be classified as Administrators and Operators. Their privileges and pre-defined credentials are written in the table below.
+## Software Screens Overview
+
+### Main Page
+
+![Figure 1](https://i.imgur.com/zJwLoWh.png)
+
+Concerning the safety measures, the software includes its so called Main Page to allow only authorized users to interfere with the process's control. Users can be classified as Administrators and Operators. Their privileges and pre-defined credentials are different and written in the table below.
 
 |               | Can change users' credentials | Can monitor/control the process | Username   | Password  |
 |---------------|-------------------------------|---------------------------------|------------|-----------|
 | Administrator | Yes                           | No                              | admin_1    | 1234      |
 | Operator      | No                            | Yes                             | operator_1 | Salam1234 |
+
+### Tank Farm Page
+
+![Imgur](https://i.imgur.com/1PBbXEq.png)
+
+Having logged in as an operator, a user can view the Tank Farm page, which is intended only for monitoring purposes. Moreover, individual pages for each tank has been created to add safety/friction to the control. In these pages, an operator can change the statuses of pumps and valves using the faceplates provided. Faceplates will show up when a correspondingly named button is clicked and will hide by clicking on X. 
+
+![Figure 1](https://i.imgur.com/i5hto8f.png)
+
+Additionally, to ease monitoring the tanks' levels simultaneously, Tank Screen has been designed, and can be viewed by clicking the button in the right top corner of Tank Screen. 
+
+![Imgur](https://i.imgur.com/ZIn2pdF.png)
+
+
+
