@@ -22,7 +22,12 @@ Several parameters have been taken into account during the designing process of 
 | High Level    | 1350     | 2250     | 2700      | 9000     |
 | Low level     | 200      | 200      | 200       | 1000     |
 
-As pumps can be fragile to certain high-pressure levels (~1000 PSI), discharge pumps have been added to the tanks to provide maximum safety. 
+As pumps can be fragile to certain high-pressure levels (~1000 PSI), discharge selenoid valves (SV1x02) have been added to the tanks to provide maximum safety. 
 
 ## Software Overview
+Concerning the safety measures, the software includes its so called Main Page to allow only authorized users to interfere with the process's control. Users can be classified as Administrators and Operators. Their privileges and pre-defined credentials are written in the table below.
 
+|               | Can change users' credentials | Can monitor/control the process | Username   | Password  |
+|---------------|-------------------------------|---------------------------------|------------|-----------|
+| Administrator | Yes                           | No                              | admin_1    | 1234      |
+| Operator      | No                            | Yes                             | operator_1 | Salam1234 |
