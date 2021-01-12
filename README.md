@@ -72,3 +72,17 @@ By clicking the flashing light, a pop screen giving detailed information about t
 ![Imgur](https://i.imgur.com/r16dyIW.png)
 
 
+## Startup Procedure
+
+Regarding the priority of filling the master tank first, as long as there is at least one slave tank available (not having a low alarm), Pump770A will automatically start to fill the master. To fill a slave tank, it is enough to activate Pump100A. Before starting the filling process, it is essential to check the valves' performance to avoid overpressure/pump fault. They can be checked by sending commands using faceplates. 
+
+Valve Faceplate            |  Pump Faceplate
+:-------------------------:|:-------------------------:
+![](https://i.imgur.com/RDfsCBL.png) |  ![](https://i.imgur.com/7Bxmou5.png)
+
+
+
+
+
+
+
