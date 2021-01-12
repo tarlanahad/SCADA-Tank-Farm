@@ -1,0 +1,21 @@
+þÿÿÿí###id###VisulizationRootBrowsableId###TargetIdNameDisplayName-###SearchableNonTechnicalFieldNamesOfDocument###ParentIds###ImmediateParentId###ReferenceFieldIds###ReconstitutionDataIDAssociatedCultureFieldIdAssociatedProjectVersion!AssociatedIndexDataVersionFieldId,AssociatedTechnicalFieldNamesHashCodeFieldId-AssociatedTechnicalFieldContentVersionFieldIdIndexAtomStore###SearchFilterIdsTitleLanguageVersion###UpdatableParentIdInterfaceMember_NameInterfaceMember_DatatypeInterfaceMember_ValueInterfaceMember_CommentNetwork titleLADFBD CodeCommentDatatypeAddressSTL CodeSCL CodeAcknowledgementModelIdEmailAddressAcknowledgedText
+ComingText	GoingTextAcknowledgementGroupTextInvalidAttempts	ValidDaysWarningDaysGenerationsMinNumPsswd
+ServerName
+PortNumberWindowsDomain	CycleUnit	CycleTimeNumber	ShortName
+LogoutTimeDataType	BackColor	GridColor
+LineColor1
+LineColor2OperatableAreaColor
+VisibilityAlarmAlertAcknowledgementComingGoingText	AlignmentStartingPointDayStartingPointHourStartingPointMinuteStartingPointMonthStartingPointSecondWebLanguageStartScreenHmiDataTypeCodeTextBackFillStyleBorderBackColorBorderColor	EdgeStyleFirstGradientColorFlashing
+FocusColorFont	ForeColorHorizontalAlignmentHorizontalPictureAlignmentMiddleGradientColorModePictureAutoSizingSecondGradientColorTextOffTextOnTextOrientationVerticalAlignmentVerticalPictureAlignmentAlarmSourceButtonBackColorButtonBackFillStyleButtonBarStyleButtonBorderBackColorButtonBorderColorButtonEdgeStyleButtonFirstGradientColorButtonMiddleGradientColorButtonSecondGradientColorColumnTextAckGroupColumnTextAlarmStateColumnTextAlarmTextColumnTextClassNameColumnTextDateColumnTextDeviceColumnTextDiagnosableColumnTextNumberColumnTextTime
+FilterTextGridlineColorLayerSelectionBackColorSelectionForeColorSortByTimeDirectionTableBackColorTableEvenRowBackColor	TableFontTableForeColorTableHeaderBackColorTableHeaderBackFillStyleTableHeaderBorderBackColorTableHeaderBorderColorTableHeaderEdgeStyleTableHeaderFirstGradientColorTableHeaderFontTableHeaderForeColorTableHeaderMiddleGradientColorTableHeaderSecondGradientColorViewTypeTemplate	FunctionsAboveUpperLimitColorBelowLowerLimitColorEvenRowBackColorSelectBackColorSelectForeColorTextListPropertyNameTagValueForPropertyTagPageAdaptPicture
+AutoSizingPictureTransparentColorCaptionTagAddressPanelInfoAcquisitionTriggerModeAcquisitionCycleConfirmationTypeCodingPlcNameControllerTagLimitHighConstantLimitHighLowConstantLimitLowHighConstantLimitLowConstant	JobNumber
+StartValueCommonAlarmClassStationNamePartnerNameNodeNameAlarmLowerLimitColorAlarmUpperLimitColorBarBackColorBarEdgeStyleBarOrientation
+ScaleColorScalePositionSegmentColoringUnitWarningLowerLimitColorWarningUpperLimitColorCaptionColorCaptionFontCaptionTextHelpTextInnerBackColorOffInnerBackColorOnSwitchOrientationBarColorBorderBrightColor3DBorderInnerStyle3DBorderOuterStyle3DBorderShadeColor3D
+LabelColorPositionFontThumbBackColor	TickStyleAuthorization
+DataFormatFormatPatternSetOfVisibleColumnsTableGridlineColorGridlineAxisGridlineFillColorGridlineStyle
+RulerColorTimeAxisModeTimeAxisSideProcessValueJobEventUITypeEditorBitPositionRangeFromToAddressAccessMode
+ConnectionUITypeEditorTagExpressionUITypeEditorStartvalueUITypeEditorEndvalueColorEndStyle	FillStyleLineEndShapeStyle
+StartStyleStyleResizingGuid_{11997190-6812}Guid_{11997190-6816}Guid_{11997190-6818}Guid_{11997190-6820}Guid_{11997190-6822}ValueNetwork commentScrollBarOrientation
+AlarmClassDelayTimeUnitHysteresisModeInfoText	AlarmText	LimitMode
+LimitValueAcknowledgementBitAddressPlcAcknowledgementBitAddressTriggerBitAddress
+TriggerTag
