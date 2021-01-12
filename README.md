@@ -45,9 +45,11 @@ Having logged in as an operator, a user can view the Tank Farm page, which is in
 
 ![Figure 1](https://i.imgur.com/i5hto8f.png)
 
-Additionally, to ease monitoring the tanks' levels simultaneously, Tank Screen has been designed, and can be viewed by clicking the button in the right top corner of Tank Screen. 
+Additionally, to ease monitoring the tanks' levels simultaneously, Trend Screen has been designed, and can be viewed by clicking the button in the right top corner of Tank Screen. 
 
 ![Imgur](https://i.imgur.com/ZIn2pdF.png)
 
+Last, to view and acknowledge the alarms, a build-in floating button has been added and can be clicked irrespective of the screen. 
 
+![Imgur](https://i.imgur.com/a6m9svx.png)
 
