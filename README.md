@@ -69,3 +69,7 @@ Once an alarm happened, the Alarm Screen Pops up, giving information about the c
 - Flashing ![#e9305a](https://via.placeholder.com/15/e9305a/000000?text=+) colored light - High Alarm
 
 By clicking the flashing light, a pop screen giving detailed information about the alarm will show up. 
+
+![Imgur](https://i.imgur.com/r16dyIW.png)
+
+
