@@ -61,5 +61,10 @@ Last, to view and acknowledge the alarms, a TIA-Portal build-in floating button 
 ### Status Representation
 
 - ![#ff7777](https://via.placeholder.com/15/ff7777/000000?text=+) Not operating
-- ![#55ff56](https://via.placeholder.com/15/55ff56/000000?text=+) Is conducting liquid
+- ![#55ff56](https://via.placeholder.com/15/55ff56/000000?text=+) Operating
+
+Once an alarm happened, the Alarm Screen Pops up, giving information about the cause and results in case of no action and cannot be moved aside without canceling the panel (by clicking x). Additionally, on the Tank Farm screen, flashing lights shows a specific tank having an alarm. 
+
+- Flashing ![#fedb58](https://via.placeholder.com/15/fedb58/000000?text=+) colored light - Low Alarm
+- Flashing ![#e9305a](https://via.placeholder.com/15/e9305a/000000?text=+) colored light - High Alarm
 
