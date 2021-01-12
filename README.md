@@ -85,15 +85,32 @@ Valve Faceplate            |  Pump Faceplate
 
 *x = 4,..,7*
 
-| Tag Name | Device                | Mission                                  |
-|----------|-----------------------|------------------------------------------|
-| SV1x01   | Inlet Selenoid Valve  | Will open during filling of the tanks    |
-| SV1x02   | Outlet Selenoid Valve | Will open during discharge of the liquid |
-| Pump110A | Pump                  | To fill the slave tanks                  |
-| Pump770A | Pump                  | To Fill the master tank                  |
-| Pump771A | Pump                  | To discharge the master tank             |
+| Tag Name | Device                | Mission                                   |
+|----------|-----------------------|-------------------------------------------|
+| SV1x01   | Inlet Selenoid Valve  | Will open during filling of the Tank1x0   |
+| SV1x02   | Outlet Selenoid Valve | Will open during discharge of the Tank1x0 |
+| LT1x01   | Level Transmitter     | Measures (4-20 mA) level of the Tank1x0   |
+| Pump110A | Pump                  | To fill the slave tanks                   |
+| Pump770A | Pump                  | To Fill the master tank                   |
+| Pump771A | Pump                  | To discharge the master tank              |
 
 
+## Logic of Operation
 
+
+** Valves**
+
+|        | Open                                                                                                                       | Close                                                                                                      |
+|--------|----------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
+| SV1x01 | - Tank is NOT Full and Open Valve command received<br>- Tank is Low                                                        | - Tank is NOT Low and Close Valve command received<br>- Slave (x = 4,5,6) tank fills the master (x=7) tank |
+| SV1x02 | - Tank is NOT Low and Close Valve command received<br>- Slave (x = 4,5,6) tank is NOT Low AND the master (x=7) tank is Low | - Tank is Low<br>- Master tank is NOT Low AND Close Valve command recieved                                 |
+
+
+** Pumps **
+
+|          | Start                                                                                                                                                   | Stop                                                                                                                               |
+|----------|---------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
+| Pump100A | - Any of Slave tanks is Low<br>- Inlet valve of a slave tank is Open and Start Pump command recieved                                                    | - All slave tank inlet valves are closed<br>- A slave tank is not low and Stop Pump command received                               |
+| Pump770A | - Outlet valve of a slave and inlet valve of master tank is open and Start Pump command received<br>- Any slave tank is not low and master tank is low  | - Master tank's inlet valve closed<br>- Master tank is being discharged<br>- Master tank is not Low and Stop Pump command received |
 
 
