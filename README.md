@@ -10,7 +10,6 @@ This text aims to provide information about Standard Operational Procedures that
 
 The tank farm has three slaves and one master tank where the master tank's fullness is prioritized. Automatic alarm systems triggering by the predefined alarm threshold in both slave and master tanks send information to the corresponding (Pump110A for slaves, Pump770 for master) pumps and valves to start the filling process. Moreover, to provide flexibility over the process, an authorized operator can also control the process manually. Having filled master tank is waiting for the discharge of product until order is received.
 
-![Figure 1](https://i.imgur.com/5GQsLwu.png)
 
 ## Design Parameters
 
@@ -63,7 +62,7 @@ Last, to view and acknowledge the alarms, a TIA-Portal build-in floating button 
 - ![#ff7777](https://via.placeholder.com/15/ff7777/000000?text=+) Not operating
 - ![#55ff56](https://via.placeholder.com/15/55ff56/000000?text=+) Operating
 
-Once an alarm happened, the Alarm Screen Pops up, giving information about the cause and results in case of no action and cannot be moved aside without canceling the panel (by clicking x). Additionally, on the Tank Farm screen, flashing lights shows a specific tank having an alarm. 
+Once an alarm happened, the Alarm Screen Pops up, giving information about the cause and results in case of no action and cannot be moved aside without canceling the panel (by clicking x). Additionally, on the Tank Farm screen, flashing lights show a specific tank having an alarm. 
 
 - Flashing ![#fedb58](https://via.placeholder.com/15/fedb58/000000?text=+) colored light - Low Alarm
 - Flashing ![#e9305a](https://via.placeholder.com/15/e9305a/000000?text=+) colored light - High Alarm
