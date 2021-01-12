@@ -1,5 +1,5 @@
 # SCADA Tank Farm
-This project has been develop as a final submission for a SCADA course using TIA Portal Software Platform (2020, Fall)
+This project has been developed as a final submission for a SCADA course using TIA Portal Software Platform (2020, Fall)
 ____
 
 ## Introduction
