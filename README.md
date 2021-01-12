@@ -98,7 +98,7 @@ Valve Faceplate            |  Pump Faceplate
 ## Logic of Operation
 
 
-** Valves**
+**Valves**
 
 |        | Open                                                                                                                       | Close                                                                                                      |
 |--------|----------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
@@ -106,11 +106,18 @@ Valve Faceplate            |  Pump Faceplate
 | SV1x02 | - Tank is NOT Low and Close Valve command received<br>- Slave (x = 4,5,6) tank is NOT Low AND the master (x=7) tank is Low | - Tank is Low<br>- Master tank is NOT Low AND Close Valve command recieved                                 |
 
 
-** Pumps **
+**Pumps**
 
 |          | Start                                                                                                                                                   | Stop                                                                                                                               |
 |----------|---------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
 | Pump100A | - Any of Slave tanks is Low<br>- Inlet valve of a slave tank is Open and Start Pump command recieved                                                    | - All slave tank inlet valves are closed<br>- A slave tank is not low and Stop Pump command received                               |
 | Pump770A | - Outlet valve of a slave and inlet valve of master tank is open and Start Pump command received<br>- Any slave tank is not low and master tank is low  | - Master tank's inlet valve closed<br>- Master tank is being discharged<br>- Master tank is not Low and Stop Pump command received |
+| Pump771A | - Master tank is not low and outlet valve is opened and start pump command received                                                                     | - Master Tank is low<br>- Master tank's outlet valve closed                                                                        |
 
+## Shut Down procedures
 
+This process includes discharge of all the tanks till there is no liquid in any of them. 
+
+1. Pump110A is deactivated
+2. Pump77A are activated to discharge master
+3. Draining master will get all the liquid from slave tanks
