@@ -43,7 +43,7 @@ Concerning the safety measures, the software includes its so called Main Page to
 Having logged in as an operator, a user can view the Tank Farm page, which is intended only for monitoring purposes. Moreover, individual pages for each tank has been created to add safety/friction to the control. 
 
 ### Tank 1x0 Screens
-In individual pages, an operator can change the statuses of pumps and valves using the faceplates provided. Faceplates will show up when a correspondingly named button is clicked and will hide by clicking on X. 
+In individual pages, an operator can view/change the statuses of pumps and valves using the faceplates provided. Faceplates will show up when a correspondingly named button is clicked and will hide by clicking on X. 
 
 ![Figure 1](https://i.imgur.com/i5hto8f.png)
 
@@ -81,6 +81,17 @@ Valve Faceplate            |  Pump Faceplate
 ![](https://i.imgur.com/RDfsCBL.png) |  ![](https://i.imgur.com/7Bxmou5.png)
 
 
+## Normal Operations
+
+*x = 4,..,7*
+
+| Tag Name | Device                | Mission                                  |
+|----------|-----------------------|------------------------------------------|
+| SV1x01   | Inlet Selenoid Valve  | Will open during filling of the tanks    |
+| SV1x02   | Outlet Selenoid Valve | Will open during discharge of the liquid |
+| Pump110A | Pump                  | To fill the slave tanks                  |
+| Pump770A | Pump                  | To Fill the master tank                  |
+| Pump771A | Pump                  | To discharge the master tank             |
 
 
 
