@@ -1,5 +1,5 @@
 # SCADA Tank Farm
-This project has been develop as a final submission for a SCADA course (2020, Fall)
+This project has been develop as a final submission for a SCADA course using TIA Portal Software Platform (2020, Fall)
 ____
 
 ## Introduction
@@ -24,7 +24,7 @@ Several parameters have been taken into account during the designing process of 
 
 As pumps can be fragile to certain high-pressure levels (~1000 PSI), discharge selenoid valves (SV1x02) have been added to the tanks to provide maximum safety. 
 
-## Software Screens Overview
+## Software Overview
 
 ### Main Page
 
@@ -41,15 +41,25 @@ Concerning the safety measures, the software includes its so called Main Page to
 
 ![Imgur](https://i.imgur.com/1PBbXEq.png)
 
-Having logged in as an operator, a user can view the Tank Farm page, which is intended only for monitoring purposes. Moreover, individual pages for each tank has been created to add safety/friction to the control. In these pages, an operator can change the statuses of pumps and valves using the faceplates provided. Faceplates will show up when a correspondingly named button is clicked and will hide by clicking on X. 
+Having logged in as an operator, a user can view the Tank Farm page, which is intended only for monitoring purposes. Moreover, individual pages for each tank has been created to add safety/friction to the control. 
+
+### Tank 1x0 Screens
+In individual pages, an operator can change the statuses of pumps and valves using the faceplates provided. Faceplates will show up when a correspondingly named button is clicked and will hide by clicking on X. 
 
 ![Figure 1](https://i.imgur.com/i5hto8f.png)
 
+### Trend Screen
 Additionally, to ease monitoring the tanks' levels simultaneously, Trend Screen has been designed, and can be viewed by clicking the button in the right top corner of Tank Screen. 
 
 ![Imgur](https://i.imgur.com/ZIn2pdF.png)
 
-Last, to view and acknowledge the alarms, a build-in floating button has been added and can be clicked irrespective of the screen. 
+### Alarm Screen
+Last, to view and acknowledge the alarms, a TIA-Portal build-in floating button has been added and can be clicked irrespective of the screen. 
 
 ![Imgur](https://i.imgur.com/a6m9svx.png)
+
+### Status Representation
+
+- ![#ff7777](https://via.placeholder.com/15/ff7777/000000?text=+) Not operating
+- ![#55ff56](https://via.placeholder.com/15/55ff56/000000?text=+) Is conducting liquid
 
